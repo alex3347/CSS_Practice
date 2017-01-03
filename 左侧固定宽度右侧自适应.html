@@ -4,30 +4,56 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<style type="text/css">
-			.main{
-				float: right; width: 100%; margin-left: -220px; border: 1px solid #00BECD;
+			*{   
+				margin: 0;   
+				padding: 0;   
+			}  
+			.left1{
+				float: left;
+				width: 220px;
+				background-color: #008000;
+				margin-right: -100%;
 			}
 			.content{
+				float: left;
+				width: 100%;
+			}
+			.contentInner{
+				background-color: #00BECD;
 				margin-left: 220px;
 			}
-			.side{
-				float: left; width: 200px;border: 1px solid #008000;
+			.clr{
+				clear: both;
 			}
-			.test{
-				border: 1px solid #0B3B8D; width: 100%;
+			.left2{
+				float: left;
+				width: 220px;
+				background-color: #008000;
+			}
+			.right2{
+				background-color: #00BECD;
+				margin-left: 220px;
 			}
 		</style>
-		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	<body>
-		<div class="main">
-			<div class="content">contentcontent</div>
+		<!--方法一-->
+		<div class="left1">  
+			左边内容  
+		</div>  
+		<div class="content">  
+			<div class="contentInner">  
+				右边内容   
+			</div>  
+		</div>  
+		<div class="clr"></div>
+		<br />
+		<!--方法二-->
+		<div class="left2">
+			左边内容
 		</div>
-		<div class="side">
-			asidecontentcontent
-		</div>
-		<div class="test">
-			testcontent
+		<div class="right2">
+			右边内容
 		</div>
 	</body>
 </html>
