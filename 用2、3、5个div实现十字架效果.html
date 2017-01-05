@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				background:red;	
+				position:absolute;
+				top:50%;
+				left:50%;
+				width:50px;
+				height:50px;
+			}
+			section{
+				width: 300px;
+				height: 500px;
+				position: relative;
+				float: left;
+			}
+			#d2_1{
+				width:150px;
+				margin: -25px 0px 0px -75px;
+			}
+			#d2_2{
+				height:150px;
+				margin: -75px 0px 0px -25px;
+			}
+			#d3_1{
+				margin: -75px 0px 0px -25px;
+			}
+			#d3_2{
+				width:150px;
+				margin: -25px 0px 0px -75px;
+			}
+			#d3_3{
+				margin: 25px 0px 0px -25px;
+			}
+			#d5_1{
+				margin: -75px 0px 0px -25px;
+			}
+			#d5_2{
+				margin: -25px 0px 0px -25px;
+			}
+			#d5_3{
+				margin:-25px 0 0 -75px;	
+			}
+			#d5_4{
+				margin:-25px 0 0 25px;	
+			}
+			#d5_5{
+				margin: 25px 0px 0px -25px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 用两个div实现十字架 -->
+		<section>
+			<div id="d2_1"></div>
+			<div id="d2_2"></div>
+		</section>
+		<!-- 用三个div实现十字架 -->
+		<section>
+			<div id="d3_1"></div>
+			<div id="d3_2"></div>
+			<div id="d3_3"></div>
+		</section>
+		<!-- 用五个div实现十字架 -->
+		<section>
+			<div id="d5_1"></div>
+			<div id="d5_2"></div>
+			<div id="d5_3"></div>
+			<div id="d5_4"></div>
+			<div id="d5_5"></div>
+		</section>
+	</body>
+</html>
