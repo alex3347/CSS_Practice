@@ -7,16 +7,39 @@
 			*{   
 				margin: 0;   
 				padding: 0;   
+			}
+			#wrap{
+				position: relative;
+				width: 90%;
+				margin: 0 auto;
 			}  
+			#slideBar{
+				position: absolute;
+				right: 0;
+				top: 0;
+				border: 1px solid #008000;
+			}
+			#content{
+				margin-right: 280px;
+				border: 1px solid #CCCCCC;
+			}
 		</style>
 	</head>
 	<body>
 		<div style="width: 90%;margin: 0 auto;">
-			<div style="width: 200px;float: right;border: 1px solid #008000;">
+			<div style="width: 280px;float: right;border: 1px solid #008000;">
 				这是右侧的内容
 			</div>
-			<div style="margin-right: 200px;border: 1px solid #CCCCCC;">
+			<div style="margin-right: 280px;border: 1px solid #CCCCCC;">
 				左侧自适应内容
+			</div>
+		</div>
+		<div id="wrap">
+			<div id="content" style="height: 100px;">
+				左侧自适应内容
+			</div>
+			<div id="slideBar" style="height: 100px;width: 280px;">
+				这是右侧的内容
 			</div>
 		</div>
 	</body>
