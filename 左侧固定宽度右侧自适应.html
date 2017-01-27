@@ -34,6 +34,21 @@
 				background-color: #00BECD;
 				margin-left: 220px;
 			}
+			#wrap{
+				position: relative;
+				width: 90%;
+				margin: 0 auto;
+			}  
+			#slideBar{
+				position: absolute;
+				top: 0;
+				left: 0;
+				border: 1px solid #008000;
+			}
+			#content{
+				margin-left: 220px;
+				border: 1px solid #CCCCCC;
+			}
 		</style>
 	</head>
 	<body>
@@ -54,6 +69,17 @@
 		</div>
 		<div class="right2">
 			右边内容
+		</div>
+		<div class="clr"></div>
+		<br />
+		<!--方法三-->
+		<div id="wrap">
+			<div id="slideBar" style="height: 100px;width: 220px;">
+				这是左侧的内容
+			</div>
+			<div id="content" style="height: 100px;">
+				右侧自适应布局
+			</div>
 		</div>
 	</body>
 </html>
